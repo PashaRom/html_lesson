@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Lesson 1. Html layout.</title>
+        <style>
+            div {
+                border: solid black 1px;
+            }
+            #header {
+                background-color: darksalmon;
+                height: 100px;
+            }
+            div.left-sidebar{
+                background-color:chartreuse;
+                float: left;
+                width: 150px;
+            }
+            div.right-sidebar{
+                background-color: chocolate;
+                float: right;
+                width: 150px;
+            }
+            div.main{
+                background-color: crimson;
+                height: 200px;
+                margin-left: 170px;
+                margin-right: 170px;
+            }
+            div#footer{
+                background-color: darkolivegreen;
+                height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">Header of site.</div>
+        <div class="left-sidebar">Left sidebar</div>    
+        <div class="right-sidebar">Right sidebar</div>
+        <div class="main">Main content</div>  
+        <div id="footer">Footer</div>
+    </body>
+</html>
